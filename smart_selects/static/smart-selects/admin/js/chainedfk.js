@@ -77,7 +77,6 @@
                         $selectField.width(width + 'px');
                     }
 
-                    $selectField.trigger('change');
                 });
             },
             init: function (chainfield, url, id, init_value, empty_label, auto_choose) {
